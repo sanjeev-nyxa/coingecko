@@ -5,7 +5,7 @@
 1. Clone the repository
 2. Run `composer install` to install dependencies
 3. Copy the `.env.example` file and rename it to `.env`
-4. Configure the database and Coingecko API settings in the `.env` file
+4. Configure the database in the `.env` file
 5. Run `php artisan migrate` to create the required database tables
 6. Run `php artisan key:generate` to generate an application key
 

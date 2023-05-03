@@ -17,7 +17,7 @@ Run the following command to fetch data from the Coingecko API and store it in t
 php artisan coingecko:fetch-data
 ```
 
-Any errors encountered during the API call will be inserted into a new table named `error_logs`.
+Any errors encountered during the API call will be inserted into a new table named `api_logs`.
 
 You can view the API logs in the `api_logs` table.
 
